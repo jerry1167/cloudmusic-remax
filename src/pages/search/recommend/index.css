@@ -1,0 +1,24 @@
+.search-recommend {
+  border-top: 0.6945px solid rgba(0,0,0,.1);
+}
+
+.search-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 60.4215px;
+  height: 104.175px;
+  color: #666;
+  font-size: 29.169px;
+}
+
+.search-item .search-icon {
+  margin-right: 20.835px;
+  width: 33.336px;
+  height: 33.336px;
+}
+
+.title {
+  color: #507daf;
+}

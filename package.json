@@ -1,0 +1,30 @@
+{
+  "name": "cloudmusic-remax",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project With TypeScript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Ling2048 <L2048@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -m -t",
+    "build": "cross-env NODE_ENV=production remax build -t"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^3.1.47",
+    "crypto-js": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "remax": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/debounce": "^1.2.0",
+    "@types/react": "^16.9.16",
+    "@types/react-redux": "^7.1.9",
+    "cross-env": "^7.0.2",
+    "typescript": "^3.7.3"
+  }
+}

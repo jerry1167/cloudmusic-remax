@@ -1,0 +1,37 @@
+.simi-song {
+  position: relative;
+  padding: 0 33.336px;
+  color: #fff;
+}
+
+.simi-song .simi-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.simi-song .simi-header .title {
+  font-weight: 500;
+  font-size: 35.4195px;
+  line-height: 1.5;
+}
+
+.simi-song .simi-header .play-all-recommend {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12.501px 20.835px;
+  border: 0.6945px solid rgba(216,216,216,.2);
+  border-radius: 50.004px;
+  font-size: 25.002px;
+}
+
+.simi-song .simi-header .play-all-recommend .play-simi {
+  margin-right: 4.167px;
+  width: 25.002px;
+  height: 25.002px;
+}

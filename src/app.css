@@ -1,0 +1,29 @@
+page {
+  height: 100%;
+}
+
+.app {
+  padding: 0 30px;
+}
+
+.remax-page {
+  min-height: unset !important;
+}
+
+.content, .info {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+  line-height: 1.5;
+}
+
+.btn-plain {
+  color: #353535;
+  border: 1px solid #353535;
+  background-color: transparent;
+}
+
+button::after {
+  border: none !important;
+}
